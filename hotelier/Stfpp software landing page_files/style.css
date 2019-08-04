@@ -205,6 +205,7 @@ header.sticky{
 .navbar-default .navbar-brand img {
 	width: 100%;
 	margin-top: -40px;
+	margin-left: 400px;
 }
 .navbar-default .navbar-nav li a{
     color:#fff;
