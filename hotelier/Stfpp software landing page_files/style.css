@@ -278,6 +278,8 @@ header.sticky{
     color: #fff;
     margin-bottom: 50px;
 	font-size: 18px;
+	width: 80%;
+	margin: auto;
 }
 .h-1{
     margin-bottom: 200px;
