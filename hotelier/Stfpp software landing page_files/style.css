@@ -190,11 +190,17 @@ header.sticky{
     position: fixed;
     width: 70%;
     left: 15%;
-    top: -250%;
+    top: 10%;
+    z-index: 10000;
 }
 .black-bg {
     position: fixed;
-    background: black;
+    background: #00000042;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 100%;
 }
 .disalbe-show {
     display: none!important;
