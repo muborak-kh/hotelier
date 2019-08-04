@@ -482,7 +482,7 @@ header.sticky{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 72%;
     background: #5627b4;
     background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
@@ -494,7 +494,7 @@ header.sticky{
 }
 .video-text{
     position: relative;
-    margin-bottom: 125px;
+    margin-bottom: 40px;
 }
 .video-text p{
     padding: 0 26%;
