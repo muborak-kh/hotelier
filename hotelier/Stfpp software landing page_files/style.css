@@ -291,12 +291,12 @@ header.sticky{
 
 /*5.Start header-bg-2 section css*/
 .header-bg-2{
-    background: url(https://webtend.net/demo/html/stfpp/assets/img/header-bg-1.png) no-repeat;
+    background: url(../img/header-bg-1.png) no-repeat;
     background-size: 90% 48%;
     background-position: center;
     position: relative;
     padding-bottom: 300px;
-    padding-top: 200px;
+    padding-top: 150px;
 } 
 .h-2{
     margin-bottom: 200px;
