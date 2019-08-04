@@ -366,7 +366,7 @@ header.sticky{
     transition: .5s;
 }
 .feature-box:hover{
-    box-shadow: 0 0 15px #cacaca;
+    box-shadow: 0 0 15px #646565;
 }
 .feature-icon {
     width: 60px;
