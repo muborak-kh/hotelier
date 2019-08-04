@@ -35,6 +35,10 @@
         $("#watch-video").fadeIn(200);
         $(".black-bg").fadeIn(200);
     });
+    $(".black-bg").click(function(){
+        $("#watch-video").fadeOut(200);
+        $(".black-bg").fadeOut(200);
+    });
     /*======================================
         scroll top JS
     ======================================*/
