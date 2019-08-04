@@ -199,6 +199,12 @@ header.sticky{
 .navbar-default .navbar-brand {
     margin-top: -15px;
     color: #fff;
+	width: 166px;
+	height: 42px;
+}
+.navbar-default .navbar-brand img {
+	width: 100%;
+	margin-top: -40px;
 }
 .navbar-default .navbar-nav li a{
     color:#fff;
