@@ -186,6 +186,16 @@ header.sticky{
 .enable-show {
     display: block!important;
 }
+#watch-video {
+    position: fixed;
+    width: 70%;
+    left: 15%;
+    top: -250%;
+}
+.black-bg {
+    position: fixed;
+    background: black;
+}
 .disalbe-show {
     display: none!important;
 }
