@@ -73,7 +73,7 @@ section {
 }
 .stfpp-title h2{
     font-weight: 600;
-    color: #944dbe;
+    color: #0f4fa8;
     text-transform: uppercase;
 }
 .stfpp-title h2:after{
@@ -136,7 +136,7 @@ section {
 .spinner > div {
   width: 18px;
   height: 18px;
-  background-color: #944dbe;
+  background-color: #0f4fa8;
 
   border-radius: 100%;
   display: inline-block;
@@ -177,16 +177,17 @@ header {
 header.sticky{
     position: fixed;
     top: 0;
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    box-shadow: 0px 0px 10px 0px grey;
+    background: #fff;
 }
 .sticky .navbar-default .navbar-nav li a{
-    color: #fff;
+    color: #555;
+}
+.enable-show {
+    display: block!important;
+}
+.disalbe-show {
+    display: none!important;
 }
 .navbar-default {
     background-color: transparent;
@@ -231,7 +232,7 @@ header.sticky{
     background:#fff
 }
 .navbar-default .navbar-toggle .icon-bar {
-    background-color: #944dbe;
+    background-color: #0f4fa8;
 }
 /*End Header Area css*/
 
@@ -242,13 +243,13 @@ header.sticky{
     top: 0;
     height: 100%;
     width: 100%;
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
     opacity: .9;
 }
 .header-bg-1{
@@ -373,7 +374,7 @@ header.sticky{
 }
 .feature-icon i{
     font-size: 30px;
-    color: #944dbe;
+    color: #0f4fa8;
 }
 .feature-deitails h4{
     padding-bottom: 30px;
@@ -384,13 +385,13 @@ header.sticky{
 
 /*8.Start Project-area section css*/
 .project-area{
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
 }
 .countdown{
     text-align: center;
@@ -417,7 +418,7 @@ header.sticky{
 }
 .dash-title h2{
     font-weight: 600;
-    color: #944dbe;
+    color: #0f4fa8;
     text-transform: uppercase;
 }
 .dash-title h2:after{
@@ -451,7 +452,7 @@ header.sticky{
     left: 0;
     top: -6px;
     font-size: 30px;
-    color: #944dbe;
+    color: #0f4fa8;
 }
 .dash-right{
     position: relative;
@@ -483,13 +484,13 @@ header.sticky{
     left: 0;
     width: 100%;
     height: 72%;
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
     opacity: .9;
 }
 .video-text{
@@ -511,7 +512,7 @@ header.sticky{
     text-align: center;
     color: #fff;
     font-size: 42px;
-    background: #944dbe;
+    background: #0f4fa8;
     border-radius: 50%;
     padding-left: 10px;
 }
@@ -523,7 +524,7 @@ header.sticky{
 }
 .soft-feature-right h2{
     text-transform: uppercase;
-    color: #944dbe;
+    color: #0f4fa8;
 }
 .soft-feature-right h2:after{
     display: block;
@@ -558,7 +559,7 @@ header.sticky{
     border-radius: 0;
     z-index: -1;
     width: 2px;
-    background-color: #944dbe;
+    background-color: #0f4fa8;
     top: 50px;
     height: 167px;
 }
@@ -576,7 +577,7 @@ header.sticky{
     width: 50px;
     text-align: center;
     line-height: 45px;
-    background: #944dbe;
+    background: #0f4fa8;
     display: block;
     border-radius: 50%;
     color: #fff;
@@ -585,13 +586,13 @@ header.sticky{
 
 /*12.Start signup section css*/
 .signup{
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
 }
 .trial-text p{
     color: #fff;
@@ -601,7 +602,7 @@ header.sticky{
 .trial-text .stfpp-btn{
     padding: 20px 50px;
     background: #fff;
-    color: #944dbe;
+    color: #0f4fa8;
 }
 /*End signup section css*/
 
@@ -613,8 +614,8 @@ header.sticky{
     padding: 20px 45px;
     text-align: center;
     background: transparent;
-    color: #944dbe;
-    border: 1px solid #944dbe;
+    color: #0f4fa8;
+    border: 1px solid #0f4fa8;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
@@ -624,7 +625,7 @@ header.sticky{
 .screenshot-button .screenshot-btn:active,
 .screenshot-button .screenshot-btn.is-checked {
     color: #fff;
-    background: #944dbe;
+    background: #0f4fa8;
 }
 .padding{
     padding-left: 5px; 
@@ -690,7 +691,7 @@ header.sticky{
 .client-slide .owl-dot.active {
     height: 12px;
     width: 12px;
-    background-color: #944dbe;
+    background-color: #0f4fa8;
     border-radius: 50%;
     border: none !important;
 }
@@ -708,13 +709,13 @@ header.sticky{
     border-radius: 10px;
 }
 .pricing-head{
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
     padding: 20px;
 }
 .pricing-head{
@@ -747,7 +748,7 @@ header.sticky{
 .pricing-body ul li i{
     margin-right: 25px;
     font-size: 14px;
-    color: #944dbe;
+    color: #0f4fa8;
 }
 .pricing-btn{
     padding-left: 70px;
@@ -755,34 +756,34 @@ header.sticky{
 }
 .price-btn {
     padding: 20px 40px;
-    border: 1px solid #944dbe;
+    border: 1px solid #0f4fa8;
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     border-radius: 10px;
-    color: #944dbe;
+    color: #0f4fa8;
     transition: .5s;
 }
 .price-btn:hover,
 .price-btn:focus{
-    background: #944dbe;
+    background: #0f4fa8;
     color: #fff;
 }
 .price-btn.checked{
-    background: #944dbe;
+    background: #0f4fa8;
     color: #fff;
 }
 /*End Pricing section css*/
 
 /*16.Start download section css*/
 .download{
-	background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+	background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
 }
 .download-text p{
     color: #fff;
@@ -797,7 +798,7 @@ header.sticky{
 /*17.Start Free-trial section css*/
 .contact-btn{
     padding: 20px 60px;
-    background: #944dbe;
+    background: #0f4fa8;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
@@ -812,13 +813,13 @@ header.sticky{
 
 /*18.Start contact section css*/
 .contact{
-	background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+	background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
 }
 .widget-text{
     position: relative;
@@ -886,24 +887,24 @@ header.sticky{
     -webkit-transition: all 0.25s;
     transition: all 0.25s;
     display: none;
-    background: #944dbe;
+    background: #0f4fa8;
 }
 #scroll-up:hover,
 #scroll-up:focus{
-    background: #944dbe;
+    background: #0f4fa8;
     color: #fff;
 }
 /*16.End Scroll up css*/
 
 /*21.Start Index.html css*/
 .stfpp-bg{
-    background: #5627b4;
-    background: -moz-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #5627b4), color-stop(100%, #934dbe));
-    background: -webkit-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -o-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: -ms-linear-gradient(top, #5627b4 0%, #934dbe 100%);
-    background: linear-gradient(to bottom, #5627b4 0%, #934dbe 100%);
+    background: #2782b4;
+    background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
+    background: -webkit-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -o-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: -ms-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
+    background: linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
     position: relative;
     padding-top: 200px;
     padding-bottom: 200px;
@@ -928,7 +929,7 @@ header.sticky{
 }
 .cat-title h4{
     text-transform: uppercase;
-    color: #944dbe;
+    color: #0f4fa8;
     font-weight: 700;
 }
 .cat-button{
@@ -937,7 +938,7 @@ header.sticky{
 }
 .cat-button a{
     padding: 15px 25px;
-    background: #944dbe;
+    background: #0f4fa8;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
