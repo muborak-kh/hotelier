@@ -361,7 +361,7 @@ header.sticky{
     background: #fff;
     padding: 20px;
     margin-bottom: 50px;
-    border: 1px solid #eaeaea;
+    border: 1px solid #adadad;
     border-radius: 10px;
     transition: .5s;
 }
@@ -381,6 +381,7 @@ header.sticky{
     position: relative;
     bottom: 50px;
     margin-bottom: -30px;
+	border: 1px solid #adadad;
 }
 .feature-icon i{
     font-size: 30px;
