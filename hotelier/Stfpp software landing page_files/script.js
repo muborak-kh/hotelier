@@ -22,10 +22,12 @@
             $("#header-area").removeClass("sticky");
             $("#black-logo").removeClass("enable-show");
             $("#white-logo").removeClass("disalbe-show");
+            $("#get-app").addClass("white-bt");
         } else {
             $("#header-area").addClass("sticky");
             $("#black-logo").addClass("enable-show");
             $("#white-logo").addClass("disalbe-show");
+            $("#get-app").removeClass("white-bt")
         }
     });
     /*======================================
