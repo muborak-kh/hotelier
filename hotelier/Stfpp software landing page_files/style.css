@@ -681,6 +681,7 @@ header.sticky{
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 10px;
+    outline: none;
     margin-right: 10px;
 }
 .screenshot-button .screenshot-btn:hover{
