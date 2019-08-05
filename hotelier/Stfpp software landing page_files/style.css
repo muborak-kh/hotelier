@@ -455,6 +455,9 @@ header.sticky{
 .p-b-40 {
     padding-bottom: 40px;
 }
+.m-t-10p {
+    margin-top: 10%;
+}
 /*9.Start dashboard section css*/
 .dash-title{
     margin-bottom: 50px;
@@ -869,6 +872,14 @@ header.sticky{
 /*End download section css*/
 #get-access {
     position: fixed;
+    width: 50%;
+    background: white;
+    z-index: 99999;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px grey;
+    left: 25%;
+    top: 15%;
+    height: 50%;
 }
 /*17.Start Free-trial section css*/
 .contact-btn{
