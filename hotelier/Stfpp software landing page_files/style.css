@@ -536,6 +536,10 @@ header.sticky{
     border-radius: 50%;
     padding-left: 10px;
 }
+.video-area a i:hover{
+	color: #0f4fa8;
+	background: #fff;
+}
 /*End video section css*/
 
 /*11.Start soft-feature section css*/
