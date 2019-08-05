@@ -81,7 +81,7 @@ section {
     content: '';
     width: 200px;
     height: 1px;
-    background: #5224b3;
+    background: #0f4fa8;
     margin: 40px auto 0 auto;
 }
 .stfpp-title h2:before{
@@ -89,7 +89,7 @@ section {
     content: '';
     width: 100px;
     height: 3px;
-    background: #5224b3;
+    background: #0f4fa8;
     position: absolute;
     top: 47%;
     left: 46%;
@@ -323,9 +323,11 @@ header.sticky{
 }
 .hero-img-2{
     position: absolute;
-    top: 126%;
-    left: 15%;
+    top: -10%;
+    left: 7.5%;
     z-index: 337;
+	width: 85%;
+	height: 85%;
 }
 /*End <strong>header-bg-2</strong> section css*/
 
