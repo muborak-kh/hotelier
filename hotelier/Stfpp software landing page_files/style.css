@@ -479,8 +479,9 @@ header.sticky{
 }
 .dash-img-1 img {
     position: absolute;
-    width: 135%;
-    top: -300%;
+    width: 200%;
+    top: -70%;
+	left: -30%;
 }
 .dash-img-2 img {
     position: absolute;
