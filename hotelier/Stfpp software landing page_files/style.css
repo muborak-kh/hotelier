@@ -487,7 +487,7 @@ header.sticky{
     position: absolute;
     max-width: 200%;
     top: -85%;
-	left: -30%;
+	left: -40%;
 }
 .dash-img-2 img {
     position: absolute;
@@ -838,14 +838,20 @@ header.sticky{
 }
 /*17.Start Free-trial section css*/
 .contact-btn{
-    padding: 20px 60px;
+    padding: 15px 67px;
     background: #0f4fa8;
     color: #fff;
     font-size: 14px;
     text-transform: uppercase;
     border: none;
     font-weight: 600;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.contact-btn:hover{
+	background: #fff;
+    color: #0f4fa8;
+	border: 1px solid #0f4fa8;
+	transition: 0.5s;
 }
 .form-control{
     height: 45px;
