@@ -199,14 +199,14 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" style="z-index: 999">
                         <div class="screenshot-button text-center">
                             <button class="screenshot-btn" id="load-shaxmatka">Шахматка</button>
-                            <button class="screenshot-btn" id="load-dashboard">Dashboard</button>
-                            <button class="screenshot-btn" data-filter=".screen-2">Бронирование гостей</button>
-                            <button class="screenshot-btn" data-filter=".screen-3">Список гостей</button>
-                            <button class="screenshot-btn" data-filter=".screen-4">Управления денежного оборота</button>
-							<button class="screenshot-btn" data-filter=".screen-3">Аналитика продажи номеров</button>
+                            <button class="screenshot-btn screenshot-active" id="load-dashboard">Dashboard</button>
+                            <button class="screenshot-btn" id="load-booking">Бронирование гостей</button>
+                            <button class="screenshot-btn" id="load-list">Список гостей</button>
+                            <button class="screenshot-btn" id="load-rule">Управление денежным оборотом</button>
+							<button class="screenshot-btn" id="load-analyze">Аналитика продажи номеров</button>
                         </div>
                     </div>
                 </div>
@@ -253,7 +253,7 @@
                     </div>
                 </div>
                 <div id="dashboard-block" class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-6 animated" id="dashboard-block-left">
                         <div class="dash-title">
                             <h2>Dashboard</h2>
                             <p>Доска показывающая короткие информации о состоянии дел происходящем в вашем отеле. Вы можете быстро изучить ситуацию вашего бизнеса, где угодна, когда угодна.  </p>
@@ -286,7 +286,175 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6">
+                    <div class="col-md-6 animated" id="dashboard-block-right">
+                        <div class="dash-right">
+                            <div class="dash-img-1">
+                                <img src="./Stfpp software landing page_files/dash-3.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="booking-block" style="display: none;" class="row">
+                    <div class="col-md-6 animated" id="booking-block-left">
+                        <div class="dash-title">
+                            <h2>Бронирование гостей</h2>
+                            <p>Доска показывающая короткие информации о состоянии дел происходящем в вашем отеле. Вы можете быстро изучить ситуацию вашего бизнеса, где угодна, когда угодна.  </p>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-crop"></i>
+                                <h4>Гости прибавщие в отель</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-list"></i>
+                                <h4>Bootstrap Framework</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-lightbulb-o"></i>
+                                <h4>Creative Interface</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animated" id="booking-block-right">
+                        <div class="dash-right">
+                            <div class="dash-img-1">
+                                <img src="./Stfpp software landing page_files/dash-3.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="list-block" style="display: none;" class="row">
+                    <div class="col-md-6 animated" id="list-block-left">
+                        <div class="dash-title">
+                            <h2>Список гостей</h2>
+                            <p>Доска показывающая короткие информации о состоянии дел происходящем в вашем отеле. Вы можете быстро изучить ситуацию вашего бизнеса, где угодна, когда угодна.  </p>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-crop"></i>
+                                <h4>Гости прибавщие в отель</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-list"></i>
+                                <h4>Bootstrap Framework</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-lightbulb-o"></i>
+                                <h4>Creative Interface</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animated" id="list-block-right">
+                        <div class="dash-right">
+                            <div class="dash-img-1">
+                                <img src="./Stfpp software landing page_files/dash-3.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="rule-block" style="display: none;" class="row">
+                    <div class="col-md-6 animated" id="rule-block-left">
+                        <div class="dash-title">
+                            <h2>Упр-ие денежным оборотом</h2>
+                            <p>Доска показывающая короткие информации о состоянии дел происходящем в вашем отеле. Вы можете быстро изучить ситуацию вашего бизнеса, где угодна, когда угодна.  </p>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-crop"></i>
+                                <h4>Гости прибавщие в отель</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-list"></i>
+                                <h4>Bootstrap Framework</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-lightbulb-o"></i>
+                                <h4>Creative Interface</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animated" id="rule-block-right">
+                        <div class="dash-right">
+                            <div class="dash-img-1">
+                                <img src="./Stfpp software landing page_files/dash-3.png" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="analyze-block" style="display: none;" class="row">
+                    <div class="col-md-6 animated" id="analyze-block-left">
+                        <div class="dash-title">
+                            <h2>Аналитика продажи номеров</h2>
+                            <p>Доска показывающая короткие информации о состоянии дел происходящем в вашем отеле. Вы можете быстро изучить ситуацию вашего бизнеса, где угодна, когда угодна.  </p>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-crop"></i>
+                                <h4>Гости прибавщие в отель</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-list"></i>
+                                <h4>Bootstrap Framework</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                        <div class="dash-box">
+                            <div class="dash-icon">
+                                <i class="fa fa-lightbulb-o"></i>
+                                <h4>Creative Interface</h4>
+                            </div>
+                            <div class="dash-details">
+                                <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit aucIaliquet. Aenean sollicitudin, lorem quis bibendum auctor, </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 animated" id="analyze-block-right">
                         <div class="dash-right">
                             <div class="dash-img-1">
                                 <img src="./Stfpp software landing page_files/dash-3.png" class="img-responsive" alt="">
