@@ -14,7 +14,9 @@
         Preloader JS
     ======================================*/
     $("#load-shaxmatka").click(function(){
-    $("#shaxmatka-block").fadeIn(1000);
+    $("#shaxmatka-block").fadeIn(100);
+    $("#shaxmatka-block-left").addClass("bounceInLeft");
+    $("#shaxmatka-block-right").addClass("bounceInRight");
     $("#dashboard-block").fadeOut(1000);
     });
     /*======================================/
