@@ -535,15 +535,16 @@ header.sticky{
     height: 100px;
     line-height: 100px;
     text-align: center;
-    color: #fff;
+    color: #0f4fa8;
     font-size: 42px;
-    background: #0f4fa8;
+    background: #fff;
     border-radius: 50%;
     padding-left: 10px;
 }
 .video-area a i:hover{
-	color: #0f4fa8;
-	background: #fff;
+	color: #fff;
+	background: #0f4fa8;
+	transition: 1s;
 }
 /*End video section css*/
 
@@ -820,7 +821,12 @@ header.sticky{
 }
 .download-text .stfpp-btn{
     background: #fff;
-    color: #8242bb;
+    color: #0f4fa8;
+}
+.download-text .stfpp-btn:hover{
+	background: #0f4fa8;
+    color: #fff;
+	transition: 1s;
 }
 /*End download section css*/
 #get-access {
