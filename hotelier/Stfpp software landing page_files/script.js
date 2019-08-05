@@ -18,7 +18,7 @@
     ======================================*/
     $(window).on('scroll', function () {
         var scroll = $(window).scrollTop();
-        if (scroll < 50) {
+        if (scroll < 5) {
             $("#header-area").removeClass("sticky");
             $("#black-logo").removeClass("enable-show");
             $("#white-logo").removeClass("disalbe-show");
