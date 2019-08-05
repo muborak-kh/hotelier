@@ -91,7 +91,7 @@ section {
     height: 3px;
     background: #0f4fa8;
     position: absolute;
-    top: 47%;
+    top: 48%;
     left: 46%;
 }
 .s-title h2{
@@ -477,7 +477,7 @@ header.sticky{
     content: '';
     width: 100px;
     height: 3px;
-    background: #5224b3;
+    background: #0f4fa8;
     position: absolute;
     top: 61.9px;
     left: 12%;
@@ -505,7 +505,7 @@ header.sticky{
     position: absolute;
     max-width: 200%;
     top: -85%;
-	left: -40%;
+	left: -45%;
 }
 .dash-img-2 img {
     position: absolute;
@@ -665,14 +665,20 @@ header.sticky{
 .screenshot-button .screenshot-btn{
     padding: 5px 15px;
     text-align: center;
-    background: transparent;
-    color: #0f4fa8;
+    background: #0f4fa8;
+    color: #fff;
     border: 1px solid #0f4fa8;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 600;
     border-radius: 10px;
     margin-right: 10px;
+}
+.screenshot-button .screenshot-btn:hover{
+	background: #fff;
+    color: #0f4fa8;
+    border: 1px solid #0f4fa8;
+	transition: 0.5s;
 }
 .screenshot-button .screenshot-btn:active,
 .screenshot-button .screenshot-btn.is-checked {
