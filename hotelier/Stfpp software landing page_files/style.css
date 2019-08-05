@@ -117,6 +117,23 @@ section {
 .stfpp-btn:focus{
     color: #fff;
 }
+.get-demo { 
+    padding: 20px 40px;
+    background: #0f4fa8;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff!important;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.get-demo:hover { 
+    background: #bcbcbc!important;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /*End Theme Default css*/
 
 /*2.Start Preloder Area css*/
