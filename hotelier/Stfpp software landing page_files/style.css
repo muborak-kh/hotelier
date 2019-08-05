@@ -636,6 +636,11 @@ header.sticky{
 .white-bt {
     background: white;
     color: #0f4fa8!important;
+	margin-left: 15px;
+}
+.white-bt:hover{
+	background: #0f4fa8!important;
+    color: #fff!important;
 }
 /*12.Start signup section css*/
 .signup{
