@@ -128,11 +128,12 @@ section {
     cursor: pointer;
 }
 .get-demo:hover { 
-    background: #bcbcbc!important;
+    background: #0f4fa8!important;
     color: #fff;
     text-transform: uppercase;
     border-radius: 5px;
     cursor: pointer;
+	box-shadow: 0 0 20px 0 #fff;
 }
 /*End Theme Default css*/
 
@@ -246,7 +247,7 @@ header.sticky{
 }
 .navbar-default .navbar-nav li a{
     color:#fff;
-    font-size: 16px;
+    font-size: 14px;
     text-transform: capitalize;
     transition: .5s;
 }
@@ -635,6 +636,13 @@ header.sticky{
 .white-bt {
     background: white;
     color: #0f4fa8!important;
+	box-shadow: 0 0 10px 0 #fff;
+	margin-left: 15px;
+}
+.white-bt:hover{
+	background: #0f4fa8;
+    color: #fff!important;
+	box-shadow: 0 0 10px 0 #0f4fa8;
 }
 /*12.Start signup section css*/
 .signup{
