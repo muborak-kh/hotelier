@@ -69,7 +69,7 @@ section {
 	padding: 60px 0 0 0;
 }
 .stfpp-title{
-    margin-bottom: 80px;
+    margin-bottom: 70px;
 }
 .stfpp-title h2{
     font-weight: 600;
@@ -82,7 +82,7 @@ section {
     width: 200px;
     height: 1px;
     background: #0f4fa8;
-    margin: 40px auto 0 auto;
+    margin: 35px auto 0 auto;
 }
 .stfpp-title h2:before{
     display: block;
@@ -232,7 +232,7 @@ header.sticky{
 }
 .navbar-default .navbar-nav li a:hover,
 .navbar-default .navbar-nav li a:focus {
-    color:#fff;
+    color:#22a288;
 }
 .navbar-default .navbar-nav li a{
     border-radius: 30px;
@@ -430,7 +430,12 @@ header.sticky{
     color: #fff;
 }
 /*End Project-area section css*/
-
+.p-b-60 {
+	padding-bottom: 60px;
+}
+.p-b-40 {
+	padding-bottom: 40px;
+}
 /*9.Start dashboard section css*/
 .dash-title{
     margin-bottom: 50px;
@@ -503,7 +508,7 @@ header.sticky{
     top: 0;
     left: 0;
     width: 100%;
-    height: 72%;
+    height: 93%;
     background: #2782b4;
     background: -moz-linear-gradient(to bottom, #0f4fa8 0%, #09a275 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, #2782b4), color-stop(100%, #5bbe4d));
@@ -523,7 +528,7 @@ header.sticky{
 }
 .video-area{
     position: relative;
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 .video-area a i {
     width: 100px;
@@ -814,7 +819,9 @@ header.sticky{
     color: #8242bb;
 }
 /*End download section css*/
-
+#get-access {
+    position: fixed;
+}
 /*17.Start Free-trial section css*/
 .contact-btn{
     padding: 20px 60px;
