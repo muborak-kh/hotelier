@@ -117,6 +117,7 @@
                 $("#submit-form").click(function(){
                     $(".trial-form").addClass("bounceOutLeft");
                     $(".trial-form").fadeOut(340);
+                    $("#header-form-h4").fadeOut(340);
                     $(".form-received").fadeIn(100);
                     $(".form-received").addClass("bounceInRight");
                 });
@@ -203,17 +204,6 @@
     });
     /*=====================================
             counterup JS
-    ======================================*/
-    /*======================================
-        magnific-Popup js
-    ======================================*/
-    $('.video-play').magnificPopup({
-        type: 'iframe',
-        removalDelay: 300,
-        mainClass: 'mfp-fade'
-    });
-    /*======================================
-        magnific-Popup js
     ======================================*/
     /*======================================/
                   isotope js
