@@ -522,8 +522,8 @@ header.sticky{
 /*10.Start video section css*/
 .video {
     background: rgba(0, 0, 0, 0) url(header-bg.png) no-repeat scroll top center;
-    background-size: 80%;
-    background-position: 50%;
+    background-size: 65%;
+    background-position: 50% -220px;
     background-repeat: no-repeat;
     position: relative;
 }
