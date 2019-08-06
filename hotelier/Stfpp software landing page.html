@@ -35,24 +35,28 @@
         </div>
     </div><!---End Preloder Area-->
     <!-- FORM -->
-        <form action="get-access.php" method="post" class="animated" style="display: none;" id="get-access">
+        <form method="post" class="animated" style="display: none;" id="get-access">
              <div class="row m-t-10p">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="trial-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="hotel-name" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="E-mail" id="" name="user-mail" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Номер телефона" id="" name="user-number" required="">
-                            </div>
-                            <div class="trial-btn text-center">
-                                <button type="submit" class="contact-btn">Отправить</button>
-                            </div>
-                        </form>
+                    <div class="trial-form animated">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="hotel-name" id="hotel-name" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="E-mail" id="" name="user-mail" id="user-mail" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Номер телефона" id="" name="user-number" id="user-number" required="">
+                        </div>
+                        <div class="trial-btn text-center">
+                            <button type="submit" id="submit-form" class="contact-btn">Отправить</button>
+                        </div>
+                    </div>
+                    <div style="display: none;" class="form-received animated">
+                        <div class="form-group">
+                            <h4>Ваша заявка была успешно отправлена</h4>
+                            <i class="fa far-success"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +138,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fa fa-envelope-open-dollar"></i>
+                            <i class="fas fa-envelope-open-dollar"></i>
                         </div>
                         <div class="feature-deitails">
                             <h4>Гибкость ценовой структуры</h4>
@@ -153,8 +157,10 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="feature-box">
+            </div>
+            <div class="row" style="display: table;">
+                <div style="display: table-cell;" class="col-md-4 col-sm-6 col-xs-12">
+                    <div style="display: table-cell;" class="feature-box">
                         <div class="feature-icon">
                             <i class="fa fa-cloud-download"></i>
                         </div>
@@ -164,8 +170,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="feature-box">
+                <div style="display: table-cell;" class="col-md-4 col-sm-6 col-xs-12">
+                    <div style="display: table-cell;" class="feature-box">
                         <div class="feature-icon">
                             <i class="fa fa-cogs"></i>
                         </div>
@@ -175,8 +181,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="feature-box">
+                <div style="display: table-cell;" class="col-md-4 col-sm-6 col-xs-12">
+                    <div style="display: table-cell;" class="feature-box">
                         <div class="feature-icon">
                             <i class="fa fa-cogs"></i>
                         </div>
@@ -206,7 +212,7 @@
                 </div>
                 <div class="video-area text-center">
                     <a class="video-play" href="javascript://"><i class="fa fa-play"></i></a>
-                    <iframe style="display: none;" id="watch-video" width="560" height="615" src="https://www.youtube.com/embed/Znw9tBZMItc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe style="display: none;" id="watch-video" width="560" height="615" src="https://www.youtube.com/embed/ozQ6-N_RjYo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <div style="display: none;" class="black-bg"></div>
                 </div>
             </div>
@@ -238,7 +244,11 @@
                 <div class="col-md-6 animated" id="shaxmatka-block-left">
                     <div class="dash-title">
                         <h2>Шахматка</h2>
+<<<<<<< HEAD
                         <h4>Раздел системы где будет отоброжатся информации о гостях в виде таблицы, где по горизонтали будет указаны даты и наличие номеров на эту дату, по вертикали номерной фонд гостиницы. </h4>
+=======
+                        <h4>Раздел системы, где будет отоброжатся информации о гостях в виде таблицы, где по горизонтали будет указаны даты и наличие номеров на эту дату, по вертикали номерной фонд гостиницы. </h4>
+>>>>>>> 1e42f3d457901a2ee7555251e240bf6d4d337528
                     </div>
                     <div class="dash-box">
                         <div class="dash-icon">
@@ -502,8 +512,8 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="trial-form">
-                        <form>
+                    <div class="trial-form-footer">
+                        <form action="get-access.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="name" required="">
                             </div>
@@ -584,13 +594,10 @@
     </footer><!--End Footer area-->
     <!--Scroll-up-->
     <a id="scroll-up" style="display: block;"><i class="fa fa-angle-up"></i></a>
-
     <!--jequery-->
     <script src="./Stfpp software landing page_files/jquery-1.12.4.min.js"></script>
     <!--Bootstrap min js-->
     <script src="./Stfpp software landing page_files/bootstrap.min.js"></script>
-    <!--owl carousel js-->
-    <script src="./Stfpp software landing page_files/owl.carousel.min.js"></script>
     <!-- counterup js-->
     <script src="./Stfpp software landing page_files/jquery.counterup.min.js"></script>
     <script src="./Stfpp software landing page_files/waypoints.min.js"></script>

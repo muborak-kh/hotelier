@@ -109,6 +109,12 @@
         $("#load-booking").removeClass("screenshot-active");
         $("#load-rule").removeClass("screenshot-active");
     });
+    $("#submit-form").click(function(){
+        $(".trial-form").addClass("bounceOutLeft");
+        $(".trial-form").fadeOut(340);
+        $(".form-received").fadeIn(100);
+        $(".form-received").addClass("bounceInRight");
+    });
     /*======================================/
         sticky header JS
     ======================================*/
@@ -179,29 +185,6 @@
     /*=====================================
         Scroll up js
     =======================================*/
-    /*======================================
-        owl slider js
-    ======================================*/
-    $('.client-slide').owlCarousel({
-        loop:true,
-        margin: 30,
-        nav:false,
-        autoplayTimeout: 4000,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:2
-            },
-            1000:{
-                items:3
-            }
-        }
-    })
-    /*======================================
-        owl slider js
-    ======================================*/
     /*=====================================
             counterup JS
     ======================================*/
