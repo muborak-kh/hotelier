@@ -109,12 +109,22 @@
         $("#load-booking").removeClass("screenshot-active");
         $("#load-rule").removeClass("screenshot-active");
     });
-    $("#submit-form").click(function(){
-        $(".trial-form").addClass("bounceOutLeft");
-        $(".trial-form").fadeOut(340);
-        $(".form-received").fadeIn(100);
-        $(".form-received").addClass("bounceInRight");
+    $(document).ready(function(){
+        $('#get-access input[type="text"]').blur(function(){
+            if(!$(this).val()){
+                $(this).addClass("error");
+            } else{
+                $("#submit-form").click(function(){
+                    $(".trial-form").addClass("bounceOutLeft");
+                    $(".trial-form").fadeOut(340);
+                    $("#header-form-h4").fadeOut(340);
+                    $(".form-received").fadeIn(100);
+                    $(".form-received").addClass("bounceInRight");
+                });
+            }
+        });
     });
+
     /*======================================/
         sticky header JS
     ======================================*/
@@ -194,17 +204,6 @@
     });
     /*=====================================
             counterup JS
-    ======================================*/
-    /*======================================
-        magnific-Popup js
-    ======================================*/
-    $('.video-play').magnificPopup({
-        type: 'iframe',
-        removalDelay: 300,
-        mainClass: 'mfp-fade'
-    });
-    /*======================================
-        magnific-Popup js
     ======================================*/
     /*======================================/
                   isotope js
