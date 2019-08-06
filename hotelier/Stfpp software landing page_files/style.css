@@ -135,7 +135,9 @@ section {
     cursor: pointer;
 }
 /*End Theme Default css*/
-
+.dash-details > li {
+    list-style: unset;
+}
 /*2.Start Preloder Area css*/
 .preloder{
     position: fixed;
