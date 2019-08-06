@@ -141,6 +141,11 @@ section {
 #wh-text {
     color: white;
 }
+.header-form-h4 {
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 25px;
+}
 /*2.Start Preloder Area css*/
 .preloder{
     position: fixed;
@@ -149,6 +154,9 @@ section {
     height: 100%;
     width: 100%;
     overflow: hidden;
+}
+.dash-details-h4 {
+    margin-top: 20px;
 }
 .spinner {
   margin: 25% auto;
@@ -878,14 +886,28 @@ header.sticky{
 /*End download section css*/
 #get-access {
     position: fixed;
-    width: 50%;
+    width: 45%;
     background: white;
     z-index: 99999;
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px grey;
-    left: 25%;
+    left: 27.5%;
     top: 15%;
-    height: 50%;
+    height: 57%;
+}
+#submit-form {
+    margin-top: 20px;
+}
+.success-h4 {
+    font-size: 28px;
+    text-align: center;
+}
+#success-icon {
+    font-size: 15em;
+    color: #4CAF50;
+    text-align: center;
+    display: block;
+    margin-top: 15%;
 }
 /*17.Start Free-trial section css*/
 .contact-btn{
