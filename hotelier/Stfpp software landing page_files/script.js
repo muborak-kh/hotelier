@@ -109,22 +109,20 @@
         $("#load-booking").removeClass("screenshot-active");
         $("#load-rule").removeClass("screenshot-active");
     });
-    function checkInput() {
-        var hotelName = document.getElementById('hotel-name').value;
-        var userTel = document.getElementById('user-number').value;
-        var userMail = document.getElementById('user-mail').value;
-        if (hotelName == "") {
-            alert("empty");
-        }
-        else {
-            $("#submit-form").click(function(){
-                $(".trial-form").addClass("bounceOutLeft");
-                $(".trial-form").fadeOut(340);
-                $(".form-received").fadeIn(100);
-                $(".form-received").addClass("bounceInRight");
-            });
-        }
-    }
+    $(document).ready(function(){
+        $('#get-access input[type="text"]').blur(function(){
+            if(!$(this).val()){
+                $(this).addClass("error");
+            } else{
+                $("#submit-form").click(function(){
+                    $(".trial-form").addClass("bounceOutLeft");
+                    $(".trial-form").fadeOut(340);
+                    $(".form-received").fadeIn(100);
+                    $(".form-received").addClass("bounceInRight");
+                });
+            }
+        });
+    });
 
     /*======================================/
         sticky header JS
