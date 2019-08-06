@@ -1310,7 +1310,8 @@
 }
 
 .fa-exclamation:before {
-	content: "\f12a"
+	content: "\f12a";
+	font-size: 55px;
 }
 
 .fa-superscript:before {

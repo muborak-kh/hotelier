@@ -460,7 +460,7 @@ header.sticky{
 }
 /*9.Start dashboard section css*/
 .dash-title{
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 .dash-title h2{
     font-weight: 600;
@@ -503,11 +503,12 @@ header.sticky{
 .dash-right{
     position: relative;
     padding-top: 220px;
+	margin-bottom: 370px;
 }
 .dash-img-1 img {
     position: absolute;
     max-width: 200%;
-    top: -85%;
+    top: -95%;
     left: -45%;
     z-index: -5;
 }
