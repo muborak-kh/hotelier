@@ -35,24 +35,28 @@
         </div>
     </div><!---End Preloder Area-->
     <!-- FORM -->
-        <form action="get-access.php" method="post" class="animated" style="display: none;" id="get-access">
+        <form method="post" class="animated" style="display: none;" id="get-access">
              <div class="row m-t-10p">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="trial-form">
-                        <form>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="hotel-name" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="E-mail" id="" name="user-mail" required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="Номер телефона" id="" name="user-number" required="">
-                            </div>
-                            <div class="trial-btn text-center">
-                                <button type="submit" class="contact-btn">Отправить</button>
-                            </div>
-                        </form>
+                    <div class="trial-form animated">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="hotel-name" id="hotel-name" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="E-mail" id="" name="user-mail" id="user-mail" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Номер телефона" id="" name="user-number" id="user-number" required="">
+                        </div>
+                        <div class="trial-btn text-center">
+                            <button type="submit" id="submit-form" class="contact-btn">Отправить</button>
+                        </div>
+                    </div>
+                    <div style="display: none;" class="form-received animated">
+                        <div class="form-group">
+                            <h4>Ваша заявка была успешно отправлена</h4>
+                            <i class="fa far-success"></i>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -134,7 +138,7 @@
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="feature-box">
                         <div class="feature-icon">
-                            <i class="fa fa-envelope-open-dollar"></i>
+                            <i class="fas fa-envelope-open-dollar"></i>
                         </div>
                         <div class="feature-deitails">
                             <h4>Гибкость ценовой структуры</h4>
@@ -500,8 +504,8 @@
             </div>
             <div class="row">
                 <div class="col-md-6 col-md-offset-3">
-                    <div class="trial-form">
-                        <form>
+                    <div class="trial-form-footer">
+                        <form action="get-access.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" placeholder="Название гостиницы" id="" name="name" required="">
                             </div>
@@ -582,13 +586,10 @@
     </footer><!--End Footer area-->
     <!--Scroll-up-->
     <a id="scroll-up" style="display: block;"><i class="fa fa-angle-up"></i></a>
-
     <!--jequery-->
     <script src="./Stfpp software landing page_files/jquery-1.12.4.min.js"></script>
     <!--Bootstrap min js-->
     <script src="./Stfpp software landing page_files/bootstrap.min.js"></script>
-    <!--owl carousel js-->
-    <script src="./Stfpp software landing page_files/owl.carousel.min.js"></script>
     <!-- counterup js-->
     <script src="./Stfpp software landing page_files/jquery.counterup.min.js"></script>
     <script src="./Stfpp software landing page_files/waypoints.min.js"></script>

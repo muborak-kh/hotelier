@@ -330,7 +330,7 @@ header.sticky{
 
 /*5.Start header-bg-2 section css*/
 .header-bg-2{
-    background: url(../img/header-bg-1.png) no-repeat;
+    background: url(https://webtend.net/demo/html/stfpp/assets/img/header-bg-1.png) no-repeat;
     background-size: 90% 48%;
     background-position: center;
     position: relative;
@@ -352,7 +352,7 @@ header.sticky{
 
 /*6.Start header-bg-3 section css*/
 .header-bg-3{
-    background: url(../img/header-bg-1.png) no-repeat;
+    background: url(https://webtend.net/demo/html/stfpp/assets/img/header-bg-1.png) no-repeat;
     background-size: 90% 48%;
     background-position: center;
     position: relative;
@@ -520,7 +520,7 @@ header.sticky{
 
 /*10.Start video section css*/
 .video {
-    background: rgba(0, 0, 0, 0) url(../img/video-bg.png) no-repeat scroll top center;
+    background: rgba(0, 0, 0, 0) url(https://webtend.net/demo/html/stfpp/assets/img/video-bg.png) no-repeat scroll top center;
     background-size: 80%;
     background-position: 50% 320px;
     background-repeat: no-repeat;
