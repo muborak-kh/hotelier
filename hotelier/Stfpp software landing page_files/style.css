@@ -138,6 +138,9 @@ section {
 .dash-details > li {
     list-style: unset;
 }
+#wh-text {
+    color: white;
+}
 /*2.Start Preloder Area css*/
 .preloder{
     position: fixed;
