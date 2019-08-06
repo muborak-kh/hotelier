@@ -521,9 +521,9 @@ header.sticky{
 
 /*10.Start video section css*/
 .video {
-    background: rgba(0, 0, 0, 0) url(https://webtend.net/demo/html/stfpp/assets/img/video-bg.png) no-repeat scroll top center;
+    background: rgba(0, 0, 0, 0) url(header-bg.png) no-repeat scroll top center;
     background-size: 80%;
-    background-position: 50% 320px;
+    background-position: 50%;
     background-repeat: no-repeat;
     position: relative;
 }
