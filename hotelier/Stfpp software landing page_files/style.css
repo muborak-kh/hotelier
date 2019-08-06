@@ -127,6 +127,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
 	border: 1px solid #fff;
+	margin-left: 20px;
 }
 .get-demo:hover { 
     background: #fff!important;
@@ -135,6 +136,7 @@ section {
     border-radius: 5px;
     cursor: pointer;
 	border: 1px solid #0f4fa8;
+	margin-left: 20px;
 }
 /*End Theme Default css*/
 .dash-details > li {
@@ -655,7 +657,7 @@ header.sticky{
 .white-bt {
     background: white;
     color: #0f4fa8!important;
-	margin-left: 15px;
+	margin-left: 20px;
 }
 .white-bt:hover{
 	background: #0f4fa8!important;
