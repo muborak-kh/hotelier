@@ -120,7 +120,7 @@ section {
 .get-demo { 
     padding: 20px 40px;
     background: #0f4fa8;
-    font-size: 14px;
+    font-size: 14px!important;
     font-weight: 600;
     color: #fff!important;
     text-transform: uppercase;
@@ -137,6 +137,7 @@ section {
     cursor: pointer;
 	border: 1px solid #0f4fa8;
 	margin-left: 20px;
+	font-size: 14px!important;
 }
 /*End Theme Default css*/
 .dash-details > li {
