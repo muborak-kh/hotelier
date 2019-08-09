@@ -1,5 +1,30 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
+	h4{
+		font-size: 14px;
+	}
+	p{
+		font-size: 10px;
+	}
+	.header-bg-2{
+		height: 700px;
+	}
+	.header-bg-2 p{
+		width: 800px;
+	}
+	.header-bg-2 img{
+		margin-top: 40px;
+	}
+	.feature-deitails h4{
+		font-size: 14px;
+	}
+	.feature-deitails p{
+		font-size: 11px;
+	}
+	.video{
+		background-size: 80%;
+		background-position: 50% -120px;
+	}
     .spinner {
         margin: 35% auto;
     }
@@ -7,17 +32,20 @@
         left: 8%;
     }
     .stfpp-title h2::before {
-        top: 46.5%;
+        top: 48%;
         left: 45%;
     }
     .dash-img-1 img {
-        left: 55px;
-        width: 400px;
-        margin-top: 20px;
+        left: -160px;
+        width: 800px;
+        margin-top: 100px;
     }
     .dash-img-2 img {
         width: 400px;
     }
+	.dashboard{
+		height: 780px;
+	}
     .video-area{
         margin-bottom:100px;
     }
@@ -33,11 +61,51 @@
         height: 218px;
     }
     .screenshot-button .screenshot-btn {
-        padding: 10px 30px;
+        padding: 4px 12px;
+		font-size: 10px;
     }
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+	.stfpp-overlay{
+		height: 86%;
+	}
+	.navbar-brand img{
+		width: 100%;
+	}
+	.navbar-collapse.collapse{
+		margin: 30px 50px 0 0;
+
+	}
+	.hero-text h1{
+		font-size: 34px!important;
+		margin-top: 20px;
+		width: 751px;
+		margin-left: -10px;
+	}
+	.hero-text p{
+		width: 109%;
+		margin-left: -25px;
+	}
+	.header-bg-2 img{
+		margin-top: 40px;
+		margin-left: -40px;
+		max-width: 200%!important;
+		height: 550px;
+	}
+	.navbar-brand {
+		text-align: center;
+		display: block;
+		padding: 0;
+		float: none;
+		margin: auto;
+	}
+	.navbar-header {
+		float: none;
+	}
+	.navbar-default .navbar-brand img {
+		margin: auto;
+	}
     .spinner {
         margin: 45% auto;
     }
