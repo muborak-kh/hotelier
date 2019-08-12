@@ -560,7 +560,7 @@
     font-size: 20px;
 }
 }
-@media only screen and (min-width: 100px) and (max-width: 413px){
+@media only screen and (min-width: 100px) and (max-width: 415px){
 	.navbar-default .navbar-brand img{
 		width: 100%;
 		margin: 0;
@@ -635,8 +635,8 @@
 		padding-left: 30px;
 	}
 	.dash-img-1 img {
-        left: 55px;
-		top: 70px;
+        left: 35px;
+		top: 40px;
     }
 	.download-text p{
 		font-size: 13px;
@@ -645,7 +645,7 @@
 	.ytp-cued-thumbnail-overlay-image{
 	}
 	#watch-video {
-		height: 25%;
+		height: 30%;
 		width: 85%;
     	left: 8%;
     	top: 35%;
@@ -657,6 +657,6 @@
 	}
 	.header-form-h4 {
     margin-bottom: 30px;
-    font-size: 20px;
+    font-size: 18px;
 }
 }
